@@ -44,5 +44,11 @@ Follow these steps to run the Flutter application:
 ### 3. open vscode:
    open vscode and open the file that you clone
 
-### 4. run flutter:
-   if you already open the file then you need to go terminal and type ``` flutter run ```
+### 4. unduh depedency:
+ type ``` flutter pub get ``` to download depedency
+
+### 5. check device:
+type ```flutter devices``` to check your devices flutter
+
+### 6. run flutter:
+   if all is done then type ``` flutter run ```
