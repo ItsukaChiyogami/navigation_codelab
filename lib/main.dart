@@ -45,38 +45,6 @@ class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Advanced Navigation')),
-      drawer: Drawer(
-        child: ListView(
-          children: [
-            DrawerHeader(
-              decoration: BoxDecoration(color: Colors.blue),
-              child: Text(
-                'Navigation Menu',
-                style: TextStyle(color: Colors.white, fontSize: 24),
-              ),
-            ),
-            ListTile(
-              title: Text('First Screen'),
-              onTap: () {
-                Navigator.pushNamed(context, '/first');
-              },
-            ),
-            ListTile(
-              title: Text('Second Screen'),
-              onTap: () {
-                Navigator.pushNamed(context, '/second');
-              },
-            ),
-            ListTile(
-              title: Text('Third Screen'),
-              onTap: () {
-                Navigator.pushNamed(context, '/third');
-              },
-            ),
-          ],
-        ),
-      ),
       body: _screens[_selectedIndex],
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
