@@ -1,16 +1,19 @@
-# navigation_codelab
+# Flutter Advanced Navigation
 
-A new Flutter project.
+This Flutter application demonstrates advanced navigation features, including:
+- Using a `Drawer` for navigation.
+- Implementing `BottomNavigationBar` for page switching.
+- Navigating between multiple screens using named routes.
 
-## Getting Started
+## Features:
+- **Main Screen**: Displays a navigation menu with a `Drawer` and a `BottomNavigationBar` to switch between different screens.
+- **First Screen**: A simple screen with a button to navigate to the second screen.
+- **Second Screen**: A screen with a button to navigate to the third screen.
+- **Third Screen**: A screen with a button to navigate back to the first screen.
 
-This project is a starting point for a Flutter application.
+## Running the Application
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Ensure you have Flutter installed. If not, follow the [official installation guide](https://flutter.dev/docs/get-started/install).
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/flutter-advanced-navigation.git
