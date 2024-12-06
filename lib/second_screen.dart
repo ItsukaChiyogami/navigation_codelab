@@ -7,12 +7,6 @@ class SecondScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Second Screen'),
-        leading: IconButton(
-          icon: Icon(Icons.arrow_back),
-          onPressed: () {
-            Navigator.pop(context);  
-          },
-        ),
       ),
       body: Center(
         child: ElevatedButton(
