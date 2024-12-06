@@ -8,10 +8,9 @@ class SecondScreen extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-            // Return to the first screen.
-            Navigator.pop(context);
+            Navigator.pushNamed(context, '/third');
           },
-          child: Text('Go Back to First Screen'),
+          child: Text('Go to Third Screen'),
         ),
       ),
     );
